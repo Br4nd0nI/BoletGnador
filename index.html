@@ -1,27 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>POO con TypScript</title>
-    <link rel="stylesheet" href="estilo.css">
-    <script type="text/javascript" src="Type.js"  ></script>
-
-</head>
-<body>
-    <h1>Ganar Loteria</h1>
-    <h2>Numero De boletos de Loteria Mas Probables</h2>
-    <h3>Ingresa La Cantidad De bolillas</h3>
-    <input type="text" name="cantidad" id="cantbolill" class="seccion"><br>
-    
-    <p>Inserta Los Numeros de Los resultados De Tu Loteria</p>
-    
-    <input type="text" name="bolilla" id="bol1" class="seccion">-
-    <input type="text" name="bolilla" id="bol2" class="seccion" >-
-    <input type="text" name="bolilla" id="bol3" class="seccion" >-
-    <input type="text" name="bolilla" id="bol4" class="seccion">-
-    <input type="text" name="bolilla" id="bol5" class="seccion">-
-    <input type="text" name="bolilla" id="bol6" class="seccion">-
-    <input type="text" name="bolilla" id="bol7" class="seccion">
-    
+<html>
+    <head>
+        <title>Solo diviertete :V</title>
+        <link rel = "stylesheet" href = "estilo.css">
+        <script type="text/javascript" src="Cuerpo.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head> 
+    <body>
+    <canvas id="abhi" width="360" height="360"></canvas>
+        <div id="popup1" class="overlay">
+    <div class="popup">
+        <h2>Opciones:</h2>
+        
+        <!-- ClASE CLOSE PARA CSS  -->
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+        <button class="a" onclick="p1()">Niveles-Dificultad</button>
+        <button class="a" onclick="p2()">Configuracion</button>
+        <button class="a" onclick="p3()">Yo</button>
+        </div>
+    </div>
+</div>
+        <div id="contr">
+        <button class="a" id="up" onclick="up()">&#8593;</button>
+            <br />
+                <button class="a" id="left" onclick="left()">&#8592;</button>
+                <button class="a"><a href="#popup1">MENU</a></button> 
+                <button class="a" id="right" onclick="right()">&#8594;</button>
+            <br />
+        <button class="a" id="down" onclick="down()">&#8595;</button>
+        </div>
+<script>
+</script>
 </body>
 </html>
